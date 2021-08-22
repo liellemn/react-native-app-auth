@@ -555,7 +555,7 @@ public class RNAppAuthModule extends ReactContextBaseJavaModule implements Activ
                 new AuthorizationRequest.Builder(
                         serviceConfiguration,
                         clientId,
-                        ResponseTypeValues.TOKEN,
+                        ResponseTypeValues.CODE,
                         Uri.parse(redirectUrl)
                 );
 
